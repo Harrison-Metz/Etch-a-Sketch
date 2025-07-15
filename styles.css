@@ -27,8 +27,5 @@ body {
 .row {
     background-color: blue;
     display: flex;
-    flex: 1;
-    
-
-    
+    flex: 1; 
 }
