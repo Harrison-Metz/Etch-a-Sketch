@@ -1,14 +1,19 @@
 body {
-    background-color: black;
+    background-color: green;
+}
+
+.grid-container {
+    background-color: orange;
 }
 
 .box {
-    background-color: white;
-    
+    background-color: red;
+    width: 10px;
+    height: 10px;
 }
 
 .row {
-    display: flexbox;
-    flex-direction: row;
-    
+    background-color: blue;
+    height: 20px;
+    width: 80%;
 }
