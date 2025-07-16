@@ -8,6 +8,17 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="controls">
+        
+        <form>
+            <label for="strokes">Strokes:</label>
+            <input type="number" id="strokes" name="strokes" min="1" max="10" step="1" value="1"><br>
+            <label for="size">Grid Size:</label>
+            <input type="number" id="size" name="size" min="4" max="100" step="4" value="16">
+        </form>
+        <button id="submit">Submit</button>
+        <button id="restartBtn">Restart</button>
+    </div>
     <div class="grid-container"></div>
 </body>
 </html>

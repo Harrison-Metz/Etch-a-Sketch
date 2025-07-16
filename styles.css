@@ -30,3 +30,26 @@ body {
     display: flex;
     flex: 1; 
 }
+
+input[type=number]{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px 0 3px 0;
+    width: 100%;
+}
+
+.controls {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 10vw;
+    height: fit-content;
+    margin: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+}
